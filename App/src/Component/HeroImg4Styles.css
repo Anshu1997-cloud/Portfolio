@@ -1,43 +1,56 @@
-.hero-img1{
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    height: 60vh;
-    position: relative;
-}
-.hero-img1::before{
-     content: "";
-     /* background-image: url("https://images.unsplash.com/photo-1623282033815-40b05d96c903?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
-     background-size: cover;
-     background-position: center top;
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     top: 0;
-     left: 0;
-     z-index: -1;
-}
-.heading{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.hero-img1 h1{
-    font-size: 2.4rem;
-}
-.hero-img1 p{
-    font-size: 1.4rem;
-    text-align: center;
-}
-@media screen and (max-width: 640px){
-    .hero-img1 h1{
-        font-size: 2rem;
-    }
+.hero-img1 {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  position: relative;
 }
 
-/* @media (min-width: 415px) and (max-width: 844px) {
+.hero-img1::before {
+  content: "";
+  /* background-image: url("https://images.unsplash.com/photo-1623282033815-40b05d96c903?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img1 h1 {
+  font-size: 2.4rem;
+}
+
+.hero-img1 p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 640px) {
+  .hero-img1 {
+      height: 50vh; /* Adjust height for smaller screens */
+  }
+
+  .hero-img1 h1 {
+      font-size: 2rem; /* Decrease font size for heading */
+  }
+
+  .hero-img1 p {
+      font-size: 1.2rem; /* Decrease font size for paragraph */
+  }
+}
+@media (min-width: 415px) and (max-width: 844px) {
     .heading h1 {
       font-size: 2.25rem;
     }
@@ -55,4 +68,4 @@
       padding: 10px 20px;
       margin: 8px 0;
     }
-  } */
+  }
