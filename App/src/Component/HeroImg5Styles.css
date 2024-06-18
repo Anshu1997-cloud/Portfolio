@@ -33,6 +33,7 @@
 
 .hero-img3 h1 {
     font-size: 2.4rem;
+    margin: 0.5rem 0;
 }
 
 .hero-img3 p {
@@ -40,17 +41,23 @@
     text-align: center;
 }
 
+
+
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 640px) {
     .hero-img3 {
-        height: 70vh; /* Adjust height for smaller screens */
+       /* Ensure at least full viewport height */
+        padding: 10px;  /* Adjust height for smaller screens */
     }
 
     .hero-img3 h1 {
-        font-size: 2rem; /* Decrease font size for heading */
+        font-size: 1.6rem; /* Decrease font size for heading */
     }
 
     .hero-img3 p {
         font-size: 1.2rem; /* Decrease font size for paragraph */
+    }
+    .hero-img3 img{
+        margin: 10px;
     }
 }
