@@ -19,7 +19,7 @@ const ProjectCardData = [
     },
     {
         imgsrc : mail,
-        title :  "E-Mail Marketing Service website ",
+        title :  "E-Mail Marketing Service Website ",
         text : "Developed a fully functional email marketing service clone using React.js, Firebase,Redux, Chakra UI, Material-UI, CSS, and JSX.  Integrated social signup and login functionality for seamless user experience. Implemented Firebase databse functionality",
         view : "https://mailclimp-website.netlify.app/",
         source : "https://github.com/Anshu1997-cloud/MailChimp-clone"
