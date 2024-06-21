@@ -2,13 +2,13 @@ import "./HeroImgStyles.css";
 import PortFolioPic3 from "../assets/PortFolioPic3.avif";
 import Me from "../assets/Me.jpeg";
 import React from "react";
-import Resume from '../assets/Anshuman_Resume .pdf'
+import Resume from '../assets/Anshuman_CV.pdf'
 import { Link} from "react-router-dom";
 
 const HeroImg = () => {
 
   const handleResumeClick = () => {
-    window.open("https://drive.google.com/file/d/1Q8ZCuP8g4EetL_MqXSdKpjFDO_XN5AYJ/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1MJIC406mU5dsofZccSmzSF43yqobkD5k/view?usp=sharing", "_blank");
   };
   
   return (
